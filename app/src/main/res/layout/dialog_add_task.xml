@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="8dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    >
+
+    <TextView
+        android:id="@+id/dtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_task"
+        android:textAlignment="center"
+        android:textColor="@color/blac"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/newTask"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_your_task_here"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:drawablePadding="20dp"
+        android:padding="8dp"
+        android:textColorHint="#FF837E7E"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:background="#CF5F5F"
+            android:textColor="@color/whit"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:background="@color/yellow"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

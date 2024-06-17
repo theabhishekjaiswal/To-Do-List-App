@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">to do</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="create_password">Create password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="already_registered_sign_in">Already Registered ? Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="dont_t_have_an_account_sign_up">Dont\'t have an account? Sign Up</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="edit_your_task">Edit your Task</string>
+    <string name="enter_your_task_here">Enter your task here</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">UPDATE</string>
+    <string name="abhishek_jaiswal">Abhishek Jaiswal</string>
+</resources>
